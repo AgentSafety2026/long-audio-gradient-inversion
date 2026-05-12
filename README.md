@@ -1,8 +1,8 @@
 # Audio Gradient Inversion — Source Code
 
-Code accompanying:
+Code for:
 
-> Xijie Zeng and Frank Rudzicz. *How to Recover Long Audio Sequences Through Gradient Inversion Attack With Dynamic Segment-based Reconstruction.* Interspeech 2025. 
+> *How to Recover Long Audio Sequences Through Gradient Inversion Attack With Dynamic Segment-based Reconstruction.* Interspeech 2025. 
 
 ## File map
 
