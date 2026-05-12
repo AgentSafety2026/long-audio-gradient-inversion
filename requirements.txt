@@ -1,0 +1,25 @@
+# Pinned during a smoke test on 2026-05-12 with Python 3.10.
+# The original Dec 2024 training environment was not preserved; these versions are
+# known-working for running main.py and main_batch.py, not guaranteed to reproduce
+# the paper's tables.
+
+# Core reconstruction pipeline (smoke-tested).
+torch==2.11.0
+torchvision==0.26.0
+librosa==0.11.0
+soundfile==0.13.1
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+Pillow==12.2.0
+scikit-learn==1.7.2
+
+# Evaluation scripts (compute_wer.py, speaker_verification.py). Not smoke-tested
+# in this cleanup pass; versions left unpinned. Install only if you want to run
+# WER / speaker-verification evaluation.
+# torchaudio
+# openai-whisper
+# jiwer
+# speechbrain
+# pandas
+# tqdm

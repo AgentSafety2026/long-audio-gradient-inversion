@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Private notes / local config (do not share with collaborators)
+NOTES.md
+CLAUDE.md
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
