@@ -63,3 +63,14 @@ python speaker_verification.py --original AudioMN_8 --reconstructed output/recon
 - `output/plots/<name>_*.png` and `output/plots/<name>/` — full-spectrogram and per-chunk plots
 - `output/chunks/<name>/` — saved originals (mel-spec npy + chunk visualizations)
 - `output/reconstructed_chunks/<name>/` — per-chunk gradient-inversion outputs
+
+## Sample output
+
+Single-mode reconstruction of `AudioMN_single/1_08_47.wav`:
+
+![Original mel-spectrogram](docs/figures/original_mel.png)
+![Reconstructed mel-spectrogram](docs/figures/reconstructed_mel.png)
+
+Gradient-matching loss converges within ~10 L-BFGS iterations across all 16 chunks:
+
+![Loss and MSE curves](docs/figures/loss_curves.png)
